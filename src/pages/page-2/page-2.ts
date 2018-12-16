@@ -1,12 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the Page_2Page page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { TocPage } from '../toc/toc';
+import { Page_1Page } from '../page-1/page-1';
+import { Page_3Page } from '../page-3/page-3';
 
 @IonicPage()
 @Component({
@@ -17,6 +13,16 @@ export class Page_2Page {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
+
+  ChaptOne() {
+    this.navCtrl.push(Page_1Page)
+  };
+  Toc() {
+    this.navCtrl.push(TocPage);
+  }
+  ChaptThree() {
+    this.navCtrl.push(Page_3Page)
+  };
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Page_2Page');

@@ -4,7 +4,6 @@ import { Page_1Page } from '../page-1/page-1';
 import { Page_2Page } from '../page-2/page-2';
 import { Page_3Page } from '../page-3/page-3';
 
-
 @IonicPage()
 @Component({
   selector: 'page-toc',
