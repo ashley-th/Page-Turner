@@ -1,0 +1,7 @@
+{
+  "name": "PageTurner",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
